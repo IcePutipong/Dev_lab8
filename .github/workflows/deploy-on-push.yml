@@ -1,7 +1,7 @@
 name: deploy on push
 on: [push]
 
-job:
+jobs:
   deploy-app:
     runs-on: ubuntu-lastest
     steps:
